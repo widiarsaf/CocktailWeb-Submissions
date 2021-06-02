@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail Website</title>
+</head>
+
+<body>
+    <!--navbar-->
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">COCKTAIL BAR</a>
+            <button class="navbar-toggler nav-bar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a id="nav-item-all" class="nav-item nav-link active" href="#">All</a>
+                    <a id="nav-item-alcoholic" class="nav-item nav-link" href="#">Alcoholic</a>
+                    <a id="nav-item-nonalcoholic" class="nav-item nav-link" href="#">Non-Alcoholic</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--end navbar-->
+
+    <!--jumborton-->
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <img src="./assets/gif-cocktail.gif" class="img-thumbnail" alt="Responsive image">
+                </div>
+                <div class="col-lg">
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <h1 class="display-4">THE <span></span>COCKTAIL</h1>
+                            <p class="lead">Don't waste your time just working, buy a cocktail and drink it with your
+                                eyes closed</p>
+                        </div>
+                        <div id="search-bar" class="container">
+                            <form class="form-inline">
+                                <input class="form-control mr-sm-2 input-keyword" type="search" placeholder="Search drink" id = "input-keyword"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-light my-2 my-sm-0 search-button" type="submit" id = "search-button"> Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end jumborton-->
+
+
+    <!-- list-cocktail-->
+
+    <div class="container list">
+        <div class="row">
+            <dic class="col">
+                <h2></h2>
+            </dic>
+        </div>
+
+        <div class="row drink-container">
+            
+
+        </div>
+
+    </div>
+
+    <!-- end list-cocktail-->
+
+    <!-- Modal Box -->
+
+  <div class="modal fade" id="detailDrinkModal" tabindex="-1" role="dialog" aria-labelledby="detailDrinkModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="detailDrinkModalLabel">Detail of Drinks</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body modal-body-drink">
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- end Modal Box-->
+<!--  footer-->
+<div class="footer">
+
+        <footer-content></footer-content>
+
+</div>
+
+<!-- end footer-->
+
+
+</body>
+
+</html>
